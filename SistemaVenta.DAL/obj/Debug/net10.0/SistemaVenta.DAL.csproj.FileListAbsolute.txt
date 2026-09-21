@@ -1,0 +1,15 @@
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\bin\Debug\net10.0\SistemaVenta.DAL.deps.json
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\bin\Debug\net10.0\SistemaVenta.DAL.dll
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\bin\Debug\net10.0\SistemaVenta.DAL.pdb
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\bin\Debug\net10.0\SistemaVenta.Entity.dll
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\bin\Debug\net10.0\SistemaVenta.Entity.pdb
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\obj\Debug\net10.0\SistemaVenta.DAL.csproj.AssemblyReference.cache
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\obj\Debug\net10.0\SistemaVenta.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\obj\Debug\net10.0\SistemaVenta.DAL.AssemblyInfoInputs.cache
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\obj\Debug\net10.0\SistemaVenta.DAL.AssemblyInfo.cs
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\obj\Debug\net10.0\SistemaVenta.DAL.csproj.CoreCompileInputs.cache
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\obj\Debug\net10.0\SistemaV.EE7A9206.Up2Date
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\obj\Debug\net10.0\SistemaVenta.DAL.dll
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\obj\Debug\net10.0\refint\SistemaVenta.DAL.dll
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\obj\Debug\net10.0\SistemaVenta.DAL.pdb
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\obj\Debug\net10.0\ref\SistemaVenta.DAL.dll

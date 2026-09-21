@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\alberto.medina\\source\\repos\\SistemaDeVentas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A722FFB5-C12B-B8AF-872E-248D081AFE47}|SistemaVentas-Aplicacion\\SistemaVentas-Aplicacion.csproj|c:\\users\\alberto.medina\\source\\repos\\sistemadeventas\\sistemaventas-aplicacion\\models\\vmodels\\vmusuariologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A722FFB5-C12B-B8AF-872E-248D081AFE47}|SistemaVentas-Aplicacion\\SistemaVentas-Aplicacion.csproj|solutionrelative:sistemaventas-aplicacion\\models\\vmodels\\vmusuariologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A722FFB5-C12B-B8AF-872E-248D081AFE47}|SistemaVentas-Aplicacion\\SistemaVentas-Aplicacion.csproj|c:\\users\\alberto.medina\\source\\repos\\sistemadeventas\\sistemaventas-aplicacion\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A722FFB5-C12B-B8AF-872E-248D081AFE47}|SistemaVentas-Aplicacion\\SistemaVentas-Aplicacion.csproj|solutionrelative:sistemaventas-aplicacion\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A722FFB5-C12B-B8AF-872E-248D081AFE47}|SistemaVentas-Aplicacion\\SistemaVentas-Aplicacion.csproj|c:\\users\\alberto.medina\\source\\repos\\sistemadeventas\\sistemaventas-aplicacion\\wwwroot\\js\\vistas\\usuario_index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A722FFB5-C12B-B8AF-872E-248D081AFE47}|SistemaVentas-Aplicacion\\SistemaVentas-Aplicacion.csproj|solutionrelative:sistemaventas-aplicacion\\wwwroot\\js\\vistas\\usuario_index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A722FFB5-C12B-B8AF-872E-248D081AFE47}|SistemaVentas-Aplicacion\\SistemaVentas-Aplicacion.csproj|c:\\users\\alberto.medina\\source\\repos\\sistemadeventas\\sistemaventas-aplicacion\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A722FFB5-C12B-B8AF-872E-248D081AFE47}|SistemaVentas-Aplicacion\\SistemaVentas-Aplicacion.csproj|solutionrelative:sistemaventas-aplicacion\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario_Index.js",
+              "DocumentMoniker": "C:\\Users\\alberto.medina\\source\\repos\\SistemaDeVentas\\SistemaVentas-Aplicacion\\wwwroot\\js\\vistas\\Usuario_Index.js",
+              "RelativeDocumentMoniker": "SistemaVentas-Aplicacion\\wwwroot\\js\\vistas\\Usuario_Index.js",
+              "ToolTip": "C:\\Users\\alberto.medina\\source\\repos\\SistemaDeVentas\\SistemaVentas-Aplicacion\\wwwroot\\js\\vistas\\Usuario_Index.js",
+              "RelativeToolTip": "SistemaVentas-Aplicacion\\wwwroot\\js\\vistas\\Usuario_Index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-09-21T20:39:51.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VMUsuarioLogin.cs",
-              "DocumentMoniker": "C:\\Users\\alberto.medina\\source\\repos\\SistemaDeVentas\\SistemaVentas-Aplicacion\\Models\\VModels\\VMUsuarioLogin.cs",
-              "RelativeDocumentMoniker": "SistemaVentas-Aplicacion\\Models\\VModels\\VMUsuarioLogin.cs",
-              "ToolTip": "C:\\Users\\alberto.medina\\source\\repos\\SistemaDeVentas\\SistemaVentas-Aplicacion\\Models\\VModels\\VMUsuarioLogin.cs",
-              "RelativeToolTip": "SistemaVentas-Aplicacion\\Models\\VModels\\VMUsuarioLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\alberto.medina\\source\\repos\\SistemaDeVentas\\SistemaVentas-Aplicacion\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaVentas-Aplicacion\\Views\\Usuario\\Index.cshtml",
+              "ToolTip": "C:\\Users\\alberto.medina\\source\\repos\\SistemaDeVentas\\SistemaVentas-Aplicacion\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "SistemaVentas-Aplicacion\\Views\\Usuario\\Index.cshtml",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAAAJgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-21T20:35:05.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\alberto.medina\\source\\repos\\SistemaDeVentas\\SistemaVentas-Aplicacion\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "SistemaVentas-Aplicacion\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\alberto.medina\\source\\repos\\SistemaDeVentas\\SistemaVentas-Aplicacion\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "SistemaVentas-Aplicacion\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwJMAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-21T18:44:01.156Z",
+              "WhenOpened": "2026-09-21T18:47:02.246Z",
               "EditorCaption": ""
             }
           ]

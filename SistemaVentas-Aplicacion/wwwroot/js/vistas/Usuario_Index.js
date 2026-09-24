@@ -53,7 +53,7 @@ function ListarUsuarios() {
                 var fila = $('<tr></tr>');
 
                 fila.append('<td style="display:none;>' + item.idUsuario + '</td>')
-                fila.append('<td><img src="' + item.urlFoto + '" alt="Foto" width="50" height="50"></td>');
+                fila.append('<td><img src="' + item.urlFoto + '"  width="50" height="50"></td>');
                 fila.append('<td>' + item.nombre + '</td>')
                 fila.append('<td>' + item.correo + '</td>')
                 fila.append('<td>' + item.telefono + '</td>')
@@ -62,25 +62,64 @@ function ListarUsuarios() {
                 fila.append(
                     '<td>' +
                     '<div style="display:flex; gap:5px; justify-content:center;">' +
-                    '<button type="button" class="btn btn-primary btn-editar" title="Editar">' +
+                    '<button type="button" class="btn btn-primary" onclick="editarUsuario" title="Editar">' +
                     '<i class="fas fa-edit"></i>' +
                     '</button>' +
-                    '<button type="button" class="btn btn-danger btn-eliminar" title="Eliminar">' +
+                    '<button type="button" class="btn btn-danger" onclick="eliminarUsuario" title="Eliminar">' +
                     '<i class="fas fa-trash"></i>' +
                     '</button>' +
                     '</div>' +
                     '</td>'
                 );
 
-
-                tablaUsuario.row.add(fila).draw();xxz0
-                xccxcsfsdf
-                xcxzxxxxxxxxxxxxxxxxxxxxxxx
+                tablaUsuario.row.add(fila);
+               
             });
 
         }
     })
 }
+
+function MostrarModal(model = Modelo_base) {
+
+    $("#txtId").val(model.idUsuario);
+    $("#txtNombre").val(model.nombre);
+    $("#txtCorreo").val(model.correo);
+    $("#txtTelefono").val(model.telefono);
+    $("#cboRol").val(model.idRol == 0 ? $("cboRol option:first").val() : modelo.idRol);
+    $("#cboEstado").val(model.esActivo);
+    $("#txtFoto").val("");
+    $("#imgUsuario").attr("src", model.urlFoto);
+
+    $("#modalData").modal("show");
+}
+
+$("#btnNuevo").on('click', function () {
+
+    $.ajax({
+        url: 'Usuario/ListarRoles',
+        type: 'get',
+        dataType: 'json',
+        success: function (response) {
+
+            var roles = response.data;
+            
+            $("#cboRol").empty();
+
+            roles.forEach(function (item) {
+                
+               $("#cboRol").append('<option value "' + item.idRol + '">' + item.descripcion  + '</option>')
+            })
+        }
+    })
+    MostrarModal();
+})
+
+
+$("btnGuardar").on('click', function () {
+
+
+})
 
 
 

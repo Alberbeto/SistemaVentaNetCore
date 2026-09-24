@@ -12,3 +12,5 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\Sistema.Entity\obj\Debug\ne
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\Sistema.Entity\obj\Debug\net10.0\SistemaVenta.Entity.pdb
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\Sistema.Entity\obj\Debug\net10.0\SistemaVenta.Entity.genruntimeconfig.cache
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\Sistema.Entity\obj\Debug\net10.0\ref\SistemaVenta.Entity.dll
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\Sistema.Entity\obj\Debug\net10.0\SistemaVenta.Entity.sourcelink.json
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\Sistema.Entity\obj\Debug\net10.0\SistemaV.20EBD7ED.Up2Date

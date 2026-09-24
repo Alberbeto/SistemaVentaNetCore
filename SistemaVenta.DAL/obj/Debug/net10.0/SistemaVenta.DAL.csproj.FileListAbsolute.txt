@@ -13,3 +13,4 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\obj\Debug\
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\obj\Debug\net10.0\refint\SistemaVenta.DAL.dll
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\obj\Debug\net10.0\SistemaVenta.DAL.pdb
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\obj\Debug\net10.0\ref\SistemaVenta.DAL.dll
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVenta.DAL\obj\Debug\net10.0\SistemaVenta.DAL.sourcelink.json

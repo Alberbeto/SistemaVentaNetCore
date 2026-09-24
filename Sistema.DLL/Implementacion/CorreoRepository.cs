@@ -41,7 +41,8 @@ namespace SistemaVenta.BLL.Implementacion
             var clienteServidor = new SmtpClient()
             {
                 Port = int.Parse(config["puerto"]),
-                Host = config["host"],
+                Host = config["host"], 
+                Credentials = credendiales,
                 DeliveryMethod = SmtpDeliveryMethod.Network,
                 UseDefaultCredentials = false,
                 EnableSsl = true

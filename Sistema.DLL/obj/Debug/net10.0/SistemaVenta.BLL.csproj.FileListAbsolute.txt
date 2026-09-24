@@ -15,3 +15,4 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\Sistema.DLL\obj\Debug\net10
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\Sistema.DLL\obj\Debug\net10.0\refint\SistemaVenta.BLL.dll
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\Sistema.DLL\obj\Debug\net10.0\SistemaVenta.BLL.pdb
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\Sistema.DLL\obj\Debug\net10.0\ref\SistemaVenta.BLL.dll
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\Sistema.DLL\obj\Debug\net10.0\SistemaVenta.BLL.sourcelink.json

@@ -161,6 +161,7 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\ww
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\hand-holding-water.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\regular\arrow-alt-circle-up.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\motorcycle.svg
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\js\vistas\Usuario_Index.js
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\file-invoice-dollar.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\mouse.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\business-time.svg
@@ -1207,6 +1208,7 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\ww
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\star-half-alt.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\toastr\toastr.min.js
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\chair.svg
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\sweetalert\sweetalert2@11.js
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\bell.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\brands\r-project.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\language.svg
@@ -1717,6 +1719,7 @@ wwwroot\img\undraw_profile_3.svg
 wwwroot\img\undraw_rocket.svg
 wwwroot\js\sb-admin-2.js
 wwwroot\js\sb-admin-2.min.js
+wwwroot\js\vistas\Usuario_Index.js
 wwwroot\js\vistas\chart-bar-demo.js
 wwwroot\js\vistas\chart-pie-demo.js
 wwwroot\js\vistas\datatables-demo.js
@@ -3583,5 +3586,6 @@ wwwroot\vendor\select2\select2.min.css
 wwwroot\vendor\select2\select2.min.js
 wwwroot\vendor\sweetalert\sweetalert.css
 wwwroot\vendor\sweetalert\sweetalert.js
+wwwroot\vendor\sweetalert\sweetalert2@11.js
 wwwroot\vendor\toastr\toastr.min.css
 wwwroot\vendor\toastr\toastr.min.js

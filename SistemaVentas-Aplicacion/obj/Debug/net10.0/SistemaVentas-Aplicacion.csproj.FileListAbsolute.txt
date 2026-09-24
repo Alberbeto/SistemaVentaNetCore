@@ -1805,3 +1805,6 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bi
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\Newtonsoft.Json.dll
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\AutoMapper.dll
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\SistemaVentas-Aplicacion.sourcelink.json
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\p3fme6w3gn-{0}-up5j6ov763-up5j6ov763.gz
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\3evc791rm4-{0}-w4nqoy28vm-w4nqoy28vm.gz

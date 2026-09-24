@@ -73,7 +73,7 @@ function ListarUsuarios() {
                 );
 
 
-                tablaUsuario.row.add(fila).draw();
+                tablaUsuario.row.add(fila).draw();xxz0
 
 
             });

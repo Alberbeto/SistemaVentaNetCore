@@ -31,6 +31,8 @@ namespace SistemaVenta.IOC
             service.AddScoped<IUtilidadesService, UtilidadesService>();
             service.AddScoped<IRolServices, RolService>();
             service.AddScoped<IUsuarioService, UsuarioService>();
+            service.AddScoped<INegocioService, NegocioService>();
+            service.AddScoped<ICategoriaService, CategoriaService>();
         }
 
 

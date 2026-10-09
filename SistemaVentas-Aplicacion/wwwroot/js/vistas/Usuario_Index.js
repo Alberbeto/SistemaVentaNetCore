@@ -1,5 +1,6 @@
 ﻿
 
+
 const Modelo_base = {
    idUsuario :0,
     nombre :"",
@@ -62,10 +63,10 @@ function ListarUsuarios() {
                 fila.append(
                     '<td>' +
                     '<div style="display:flex; gap:5px; justify-content:center;">' +
-                    '<button type="button" class="btn btn-primary" onclick="editarUsuario" title="Editar">' +
+                    '<button type="button" class="btn btn-primary" onclick="editarUsuario(' + item.idUsuario + ')" title="Editar">' +
                     '<i class="fas fa-edit"></i>' +
                     '</button>' +
-                    '<button type="button" class="btn btn-danger" onclick="eliminarUsuario" title="Eliminar">' +
+                    '<button type="button" class="btn btn-danger" onclick="eliminarUsuario(' + item.idUsuario + ')" title="Eliminar">' +
                     '<i class="fas fa-trash"></i>' +
                     '</button>' +
                     '</div>' +
@@ -75,6 +76,8 @@ function ListarUsuarios() {
                 tablaUsuario.row.add(fila);
                
             });
+
+            tablaUsuario.draw();
 
         }
     })
@@ -108,7 +111,7 @@ $("#btnNuevo").on('click', function () {
 
             roles.forEach(function (item) {
                 
-               $("#cboRol").append('<option value "' + item.idRol + '">' + item.descripcion  + '</option>')
+               $("#cboRol").append('<option value= "' + item.idRol + '">' + item.descripcion  + '</option>')
             })
         }
     })
@@ -116,10 +119,234 @@ $("#btnNuevo").on('click', function () {
 })
 
 
-$("btnGuardar").on('click', function () {
+
+function editarUsuario(idusuario) {
+
+    
+    $.ajax({
+        url: 'Usuario/ObtenerPorId',
+        type: 'post',
+        dataType: 'json',
+        data: { idUsuario: idusuario },
+        success: function (response) {
+            var datos = response.data;
+            debugger;
+
+            $("#txtId").val(datos.idUsuario);
+            $("#txtNombre").val(datos.nombre);
+            $("#txtCorreo").val(datos.correo);
+            $("#txtTelefono").val(datos.telefono);
+
+            $("#cboEstado").val(datos.esActivo);
+            $("#imgUsuario").attr("src", datos.urlFoto);
+
+
+            $.ajax({
+                url: 'Usuario/ListarRoles',
+                type: 'get',
+                dataType: 'json',
+                success: function (response) {
+
+                    var roles = response.data;
+
+                    $("#cboRol").empty();
+
+                    roles.forEach(function (item) {
+
+                        $("#cboRol").append('<option value= "' + item.idRol + '">' + item.descripcion + '</option>')
+                    })
+                    $("#cboRol").val(datos.idRol);
+                }
+            })
+            $("#modalData").modal("show");
+
+
+
+
+        }
+    })
+
+}
+
+
+
+$("#btnGuardar").on('click', function () {
+
+    
+    var nombre=$("#txtNombre").val().trim();
+    var correo =$("#txtCorreo").val().trim();
+    var telefono = $("#txtTelefono").val().trim();
+
+    if (!nombre && !correo && !telefono) {
+
+        Swal.fire({
+            title: 'MENSAJE',
+            text: 'Los campos no pueden estas vacios',
+            icon: 'error'
+        })
+        return;
+
+        
+    }
+    if (!nombre) {
+
+        Swal.fire({
+            title: 'MENSAJE',
+            text: 'El campo nombre no puede estar vacio',
+            icon: 'error'
+        })
+        return;
+    }
+
+    if (!correo) {
+
+        Swal.fire({
+            title: 'MENSAJE',
+            text: 'El campo correo no puede estar vacio',
+            icon: 'error'
+        })
+        return;
+    }
+
+    if (!telefono) {
+
+        Swal.fire({
+            title: 'MENSAJE',
+            text: 'El campo telefono no puede estar vacio',
+            icon: 'error'
+        })
+        return;
+    }
+
+    const modelo = structuredClone(Modelo_base);
+
+    modelo["idUsuario"] = parseInt($("#txtId").val());
+    modelo["nombre"] = $("#txtNombre").val();
+    modelo["correo"] = $("#txtCorreo").val();
+    modelo["telefono"] = $("#txtTelefono").val();
+    modelo["idRol"] = $("#cboRol").val();
+    modelo["esActivo"] = $("#cboEstado").val();
+
+    const inputFoto = document.getElementById("txtFoto")
+
+    const formData = new FormData();
+
+    formData.append("foto", inputFoto.files[0])
+    formData.append("modelo", JSON.stringify(modelo))
+
+    $("#modalData").find("div.modal-content").LoadingOverlay("show");
+
+    if (modelo.idUsuario == 0) {
+
+        $.ajax({
+            url: 'Usuario/Crear',
+            type: 'post',
+            dataType: 'json',
+            data: formData,
+            processData: false,
+            contentType: false,
+            success: function (response) {
+                $("#modalData").find("div.modal-content").LoadingOverlay("hide");
+                if (response.estado) {
+
+                    Swal.fire({
+                        title: 'MENSAJE',
+                        text: 'Se registro el usuario de forma correcta',
+                        icon: 'success'
+                    })
+                    $("#modalData").modal("hide");
+
+                    ListarUsuarios();
+                } else {
+                    Swal.fire({
+                        title: 'MENSAJE',
+                        text: 'Hubo un problema verificar',
+                        icon: response.mensaje
+                    })
+                }
+            }
+
+        })
+    } else {
+        $.ajax({
+            url: 'Usuario/Editar',
+            type: 'put',
+            dataType: 'json',
+            data: formData,
+            processData: false,
+            contentType: false,
+            success: function (response) {
+                $("#modalData").find("div.modal-content").LoadingOverlay("hide");
+                if (response.estado) {
+
+                    Swal.fire({
+                        title: 'MENSAJE',
+                        text: 'Se actualizo el usuario de forma correcta',
+                        icon: 'success'
+                    })
+                    $("#modalData").modal("hide");
+
+                    ListarUsuarios();
+                } else {
+                    Swal.fire({
+                        title: 'MENSAJE',
+                        text: 'Hubo un problema verificar',
+                        icon: response.mensaje
+                    })
+                }
+            }
+
+        })
+    }
+   
 
 
 })
+function eliminarUsuario(idUsuario) {
+    debugger;
+    Swal.fire({
+        title: "MENSAJE",
+        text: "Desea eliminar el usuario!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "SI"    
+    }).then((result) => {
+
+        if (result.isConfirmed) {
+            $.ajax({
+                url: 'Usuario/Eliminar',
+                type: 'delete',
+                data: { idUsuario: idUsuario },
+                dataType: 'json',
+                success: function (response) {
+
+                    if (response.estado) {
+                        Swal.fire({
+                            title: 'MENSAJE',
+                            text: 'Se elimino el usuario de forma correcta',
+                            icon: 'success'
+                        })
+                        ListarUsuarios();
+                    } else {
+                        Swal.fire({
+                            title: 'MENSAJE',
+                            text: reponse.mensaje,
+                            icon: 'success'
+                        })
+                    }
+
+
+                }
+            })
+        }
+     
+    });
+}
+
+
+
 
 
 

@@ -77,10 +77,11 @@ namespace SistemaVentas_Aplicacion.Controllers
                 gresponse.Estado = true;
                 gresponse.Objeto = vmUsuario;
 
-                
+             
 
 
-            }catch(Exception ex)
+            }
+            catch(Exception ex)
             {
                 gresponse.Estado = false;
                 gresponse.Mensaje = ex.Message;
@@ -147,5 +148,25 @@ namespace SistemaVentas_Aplicacion.Controllers
 
             return StatusCode(StatusCodes.Status200OK, gresponse);
         }
+
+        [HttpPost]
+
+        public async Task<IActionResult> ObtenerPorId(int idUsuario)
+        {
+            
+                 
+
+            VMUsuario query = _mapper.Map<VMUsuario>(await _usuarioservice.ObtenerPorId(idUsuario));
+            return StatusCode(StatusCodes.Status200OK, new { data = query });
+
+
+        
+           
+            
+        
+
+
+
     }
+}
 }

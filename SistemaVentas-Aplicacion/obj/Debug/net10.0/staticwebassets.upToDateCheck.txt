@@ -406,6 +406,7 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\ww
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\jquery-ui\idioma\datepicker-es.js
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\desktop.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\js\v4-shims.min.js
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\js\vistas\Categoria_Index.js
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\regular\arrow-alt-circle-left.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\sort-numeric-up-alt.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\user-alt-slash.svg
@@ -1072,6 +1073,7 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\ww
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\charging-station.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\hand-point-up.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\location-arrow.svg
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\js\vistas\Negocio_Index.js
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\cart-plus.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\fish.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\brands\optin-monster.svg
@@ -1719,6 +1721,8 @@ wwwroot\img\undraw_profile_3.svg
 wwwroot\img\undraw_rocket.svg
 wwwroot\js\sb-admin-2.js
 wwwroot\js\sb-admin-2.min.js
+wwwroot\js\vistas\Categoria_Index.js
+wwwroot\js\vistas\Negocio_Index.js
 wwwroot\js\vistas\Usuario_Index.js
 wwwroot\js\vistas\chart-bar-demo.js
 wwwroot\js\vistas\chart-pie-demo.js

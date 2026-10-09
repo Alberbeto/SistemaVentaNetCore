@@ -2,12 +2,12 @@
 {
     public class GenericResponse<TObject>
     {
-        public bool Estado { set; get; }
+        public bool? Estado { get; set; }
 
-        public string? Mensaje { set; get; }
+        public string? Mensaje { get; set; }
 
-        public TObject Objeto { set; get; }
-        
-        public List<TObject> listaObjeto { set; get; }
+        public TObject Objeto { get; set; }
+
+        public List<TObject> listaObjeto { get; set; }
     }
 }

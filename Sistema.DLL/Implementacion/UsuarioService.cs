@@ -107,7 +107,9 @@ namespace SistemaVenta.BLL.Implementacion
             }
             catch(Exception ex)
             {
+               string mesnsaje=  ex.Message;
                 throw;
+                
             }
 
         }
@@ -128,6 +130,7 @@ namespace SistemaVenta.BLL.Implementacion
                 usuarioEditar.Nombre = entidad.Nombre;
                 usuarioEditar.Correo = entidad.Correo;
                 usuarioEditar.Telefono = entidad.Telefono;
+                usuarioEditar.EsActivo = entidad.EsActivo;
 
                 usuarioEditar.IdRol = entidad.IdRol;
 

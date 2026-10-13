@@ -1810,4 +1810,4 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\ob
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\SistemaVentas-Aplicacion.pdb
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\SistemaVentas-Aplicacion.genruntimeconfig.cache
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\ref\SistemaVentas-Aplicacion.dll
-C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\j63hy8xu40-{0}-o3t3vcdf04-o3t3vcdf04.gz
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\j63hy8xu40-{0}-297glmbdwi-297glmbdwi.gz

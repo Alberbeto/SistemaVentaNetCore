@@ -89,9 +89,9 @@ namespace SistemaVenta.BLL.Implementacion
             {
                 Producto producto_encontrado = await _repository.Obtener(p => p.Descripcion == entidad.Descripcion && p.IdProducto != entidad.IdProducto);
 
-                if(producto_encontrado == null)
+                if(producto_encontrado != null)
                 {
-                    throw new TaskCanceledException("El producto no se encuentra");
+                    throw new TaskCanceledException("El producto no existe");
                 }
 
                 IQueryable<Producto> query = await _repository.Consultar(p => p.IdProducto == entidad.IdProducto);
@@ -107,11 +107,11 @@ namespace SistemaVenta.BLL.Implementacion
 
                 if(fotoStream != null)
                 {
-                    string url = await _firebaservice.SubirStorage(fotoStream, "carpeta_producto", producto_encontrado.NombreImagen);
-                    producto_encontrado.UrlImagen = url;
+                    string url = await _firebaservice.SubirStorage(fotoStream, "carpeta_producto", productoEditar.NombreImagen);
+                    productoEditar.UrlImagen = url;
                 }
 
-                bool respuesta = await _repository.Editar(producto_encontrado);
+                bool respuesta = await _repository.Editar(productoEditar);
                 if (!respuesta)
                 {
                     throw new TaskCanceledException("No se pudo editar el producto");

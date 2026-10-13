@@ -33,6 +33,7 @@ namespace SistemaVenta.IOC
             service.AddScoped<IUsuarioService, UsuarioService>();
             service.AddScoped<INegocioService, NegocioService>();
             service.AddScoped<ICategoriaService, CategoriaService>();
+            service.AddScoped<IProductoService, ProductoService>();
         }
 
 

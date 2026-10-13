@@ -7,8 +7,12 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bi
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\SistemaVentas-Aplicacion.runtimeconfig.json
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\SistemaVentas-Aplicacion.dll
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\SistemaVentas-Aplicacion.pdb
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\AutoMapper.dll
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\Azure.Core.dll
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\Azure.Identity.dll
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\Firebase.Auth.dll
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\Firebase.Storage.dll
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
@@ -26,6 +30,7 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bi
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\Newtonsoft.Json.dll
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\System.ClientModel.dll
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
@@ -72,6 +77,7 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\ob
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\SistemaVentas-Aplicacion.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\SistemaVentas-Aplicacion.RazorAssemblyInfo.cache
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\SistemaVentas-Aplicacion.RazorAssemblyInfo.cs
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\SistemaVentas-Aplicacion.sourcelink.json
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -89,9 +95,12 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\ob
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\nlyoyba2tu-{0}-8c6joi3n26-8c6joi3n26.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\k1lp3xwttz-{0}-ed8hd3w5um-ed8hd3w5um.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\eg1hyngadb-{0}-3wkk0jr7h6-3wkk0jr7h6.gz
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\7prdrd60up-{0}-o3n71rb54v-o3n71rb54v.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\71m2dplrji-{0}-du6f4z50jg-du6f4z50jg.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\0i52rj41kh-{0}-iyjcvih5l7-iyjcvih5l7.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\ugx7xcg0tj-{0}-9ju9clb4wr-9ju9clb4wr.gz
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\mcoixuc74r-{0}-m28h6wgapw-m28h6wgapw.gz
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\3evc791rm4-{0}-cdedysmyrp-cdedysmyrp.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\4bu2r1g2ik-{0}-holytffiuu-holytffiuu.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\bwavpx4x5c-{0}-lvacmjdy9i-lvacmjdy9i.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\y3nbwg2cin-{0}-8u741w00kw-8u741w00kw.gz
@@ -1784,6 +1793,7 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\ob
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\xk7vmrhe6m-{0}-xe5rc2fxks-xe5rc2fxks.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\gr7vp0hezl-{0}-3is0jjz62b-3is0jjz62b.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\g3ee53n81h-{0}-ierzbjbu9n-ierzbjbu9n.gz
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\p3fme6w3gn-{0}-up5j6ov763-up5j6ov763.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\j0fg7flokz-{0}-i4xyexsgh4-i4xyexsgh4.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\p1ukxkc0s8-{0}-su2cqjkdox-su2cqjkdox.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\10t7x7hxa7-{0}-xd2btn15ve-xd2btn15ve.gz
@@ -1800,13 +1810,4 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\ob
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\SistemaVentas-Aplicacion.pdb
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\SistemaVentas-Aplicacion.genruntimeconfig.cache
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\ref\SistemaVentas-Aplicacion.dll
-C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\Firebase.Auth.dll
-C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\Firebase.Storage.dll
-C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\Newtonsoft.Json.dll
-C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\AutoMapper.dll
-C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\bin\Debug\net10.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\SistemaVentas-Aplicacion.sourcelink.json
-C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\p3fme6w3gn-{0}-up5j6ov763-up5j6ov763.gz
-C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\3evc791rm4-{0}-cdedysmyrp-cdedysmyrp.gz
-C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\mcoixuc74r-{0}-m28h6wgapw-m28h6wgapw.gz
-C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\7prdrd60up-{0}-qmggbloli0-qmggbloli0.gz
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\j63hy8xu40-{0}-o3t3vcdf04-o3t3vcdf04.gz

@@ -62,6 +62,22 @@ namespace SistemaVentas_Aplicacion.Controllers
 
         [HttpPost]
 
+        public async Task<IActionResult> ObtenerxId(int idProducto)
+        {
+
+            try
+            {
+                VMProducto queryProductos = _mapper.Map<VMProducto>(await _productoService.ObtenerPorId(idProducto));
+                return StatusCode(StatusCodes.Status200OK, new { data = queryProductos });
+
+            }catch(Exception ex)
+            {
+                throw;
+            }
+        }
+
+        [HttpPost]
+
 
         public async Task<IActionResult> Crear([FromForm] IFormFile foto, [FromForm] string modelo)
         {
@@ -97,7 +113,9 @@ namespace SistemaVentas_Aplicacion.Controllers
             return StatusCode(StatusCodes.Status200OK, gresponse);
         }
 
-        public async Task<IActionResult> Editar([FromForm] FormFile foto, [FromForm] string modelo)
+        [HttpPut]
+
+        public async Task<IActionResult> Editar([FromForm] IFormFile foto, [FromForm] string modelo)
         {
             GenericResponse<VMProducto> gresponse = new GenericResponse<VMProducto>();
             try

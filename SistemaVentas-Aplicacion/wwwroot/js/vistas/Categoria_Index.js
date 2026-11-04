@@ -169,7 +169,7 @@ $("#btnGuardar").on('click', function () {
                 if (response.estado) {
                     Swal.fire({
                         title: 'MENSAJE',
-                        text: 'Se actualizo correctamente la categoria',
+                        text: 'Se actualizo correctamente la categoria' 
                         icon: 'success'
                     })
 

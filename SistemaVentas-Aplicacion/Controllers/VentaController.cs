@@ -39,8 +39,23 @@ namespace SistemaVentas_Aplicacion.Controllers
         {
             try
             {
-                List<TipoDocumentoVenta> queryListaTipoDocumento = await _tiposervice.Lista();
-                return StatusCode(StatusCodes.Status200OK, new { data = queryListaTipoDocumento });
+                List<VMTipoDocumentoVenta> query = _mapper.Map<List<VMTipoDocumentoVenta>>(await _tiposervice.Lista());
+                return StatusCode(StatusCodes.Status200OK, new { data = query });
+                
+            }  catch(Exception ex)
+            {
+                throw;
+            }
+        }
+
+        [HttpGet]
+
+        public async Task<IActionResult> ObtenerProducto(string busqueda)
+        {
+            try
+            {
+                List<VMProducto> querylistsProducto = _mapper.Map<List<VMProducto>>(await _ventareservice.ObtenerProductos(busqueda));
+                return StatusCode(StatusCodes.Status200OK, new { data = querylistsProducto });
 
             }catch(Exception ex)
             {
@@ -72,6 +87,21 @@ namespace SistemaVentas_Aplicacion.Controllers
             }
 
             return StatusCode(StatusCodes.Status200OK, gresponse);
+        }
+
+        [HttpPost]
+
+        public async Task<IActionResult> hIstorial(string? numeroVenta, string? fechaInicio, string? fechaFin)
+        {
+            try
+            {
+                List<VMVenta> historialvNeta = _mapper.Map<List<VMVenta>>(await _ventareservice.Historial(numeroVenta, fechaInicio, fechaFin));
+                return StatusCode(StatusCodes.Status200OK, new { data = historialvNeta });
+
+            }catch(Exception ex)
+            {
+                throw;
+            }
         }
     }
 }

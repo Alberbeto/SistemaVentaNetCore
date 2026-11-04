@@ -37,7 +37,7 @@ namespace SistemaVenta.DAL.Implementacion
                     await _dbContext.SaveChangesAsync();
 
 
-                    NumeroCorrelativo numCorrelativo = _dbContext.NumeroCorrelativos.Where(n => n.Gestion.Equals("Gestion")).First();
+                    NumeroCorrelativo numCorrelativo = _dbContext.NumeroCorrelativos.Where(n => n.Gestion.Equals("venta")).First();
                     numCorrelativo.UltimoNumero = numCorrelativo.UltimoNumero + 1;
                     numCorrelativo.FechaActualizacion = DateTime.Now;
 

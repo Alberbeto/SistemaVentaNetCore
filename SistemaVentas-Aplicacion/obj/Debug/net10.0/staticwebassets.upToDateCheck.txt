@@ -1289,6 +1289,7 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\ww
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\thermometer-three-quarters.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\asterisk.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\dungeon.svg
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\js\vistas\HistorialVenta.js
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\brands\shopware.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\boxes.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\brands\wpforms.svg
@@ -1577,6 +1578,7 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\ww
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\brands\d-and-d.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\industry.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\chalkboard.svg
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\js\vistas\NuevaVenta_Index.js
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\chess-king.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\horse-head.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\calendar-check.svg
@@ -1723,7 +1725,9 @@ wwwroot\img\undraw_rocket.svg
 wwwroot\js\sb-admin-2.js
 wwwroot\js\sb-admin-2.min.js
 wwwroot\js\vistas\Categoria_Index.js
+wwwroot\js\vistas\HistorialVenta.js
 wwwroot\js\vistas\Negocio_Index.js
+wwwroot\js\vistas\NuevaVenta_Index.js
 wwwroot\js\vistas\Producto_Index.js
 wwwroot\js\vistas\Usuario_Index.js
 wwwroot\js\vistas\chart-bar-demo.js

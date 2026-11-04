@@ -95,7 +95,6 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\ob
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\nlyoyba2tu-{0}-8c6joi3n26-8c6joi3n26.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\k1lp3xwttz-{0}-ed8hd3w5um-ed8hd3w5um.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\eg1hyngadb-{0}-3wkk0jr7h6-3wkk0jr7h6.gz
-C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\7prdrd60up-{0}-o3n71rb54v-o3n71rb54v.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\71m2dplrji-{0}-du6f4z50jg-du6f4z50jg.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\0i52rj41kh-{0}-iyjcvih5l7-iyjcvih5l7.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\ugx7xcg0tj-{0}-9ju9clb4wr-9ju9clb4wr.gz
@@ -1811,3 +1810,6 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\ob
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\SistemaVentas-Aplicacion.genruntimeconfig.cache
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\ref\SistemaVentas-Aplicacion.dll
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\j63hy8xu40-{0}-297glmbdwi-297glmbdwi.gz
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\7prdrd60up-{0}-misgz43wlz-misgz43wlz.gz
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\xe6bmw7ns9-{0}-kp3lc5p5xx-kp3lc5p5xx.gz
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\qk6nqcs44l-{0}-prsovkb937-prsovkb937.gz

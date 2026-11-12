@@ -1812,4 +1812,4 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\ob
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\j63hy8xu40-{0}-297glmbdwi-297glmbdwi.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\7prdrd60up-{0}-misgz43wlz-misgz43wlz.gz
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\xe6bmw7ns9-{0}-kp3lc5p5xx-kp3lc5p5xx.gz
-C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\qk6nqcs44l-{0}-prsovkb937-prsovkb937.gz
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\obj\Debug\net10.0\compressed\qk6nqcs44l-{0}-3zjdqdi9xz-3zjdqdi9xz.gz

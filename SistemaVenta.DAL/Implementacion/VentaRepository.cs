@@ -80,7 +80,7 @@ namespace SistemaVenta.DAL.Implementacion
                     ThenInclude(tdv => tdv.IdTipoDocumentoVentaNavigation).
                     Include(v => v.IdVentaNavigation).
                     ThenInclude(u => u.IdUsuarioNavigation)
-                    .Where(dv => dv.IdVentaNavigation.FechaRegistro <= fechaInicio.Date && dv.IdVentaNavigation.FechaRegistro >= fechaFinal.Date).ToListAsync();
+                    .Where(dv => dv.IdVentaNavigation.FechaRegistro >= fechaInicio.Date && dv.IdVentaNavigation.FechaRegistro < fechaFinal.Date.AddDays(1)).ToListAsync();
 
                 return entidad;
 

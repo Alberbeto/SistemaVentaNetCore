@@ -169,7 +169,8 @@ $("#btnBuscar").on('click', function () {
 
             $("#tbProductos tbody").append(fila);
         })
-       
+
+        $("#linkImprimir").attr("href", "/Venta/MostrarPDFVenta?numeroVenta=" + resumen.numeroVenta)
 
         $("#modalData").modal("show");
 

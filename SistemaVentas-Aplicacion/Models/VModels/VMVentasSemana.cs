@@ -4,6 +4,6 @@
     {
         public string? Fecha { get; set; }
 
-        public string? Total { get; set; }
+        public int? Total { get; set; }
     }
 }

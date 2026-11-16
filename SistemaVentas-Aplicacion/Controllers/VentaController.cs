@@ -7,7 +7,8 @@ using AutoMapper;
 using SistemaVentas_Aplicacion.Utilidades.Response;
 using SistemaVentas_Aplicacion.Models.VModels;
 using Newtonsoft.Json;
-
+using DinkToPdf;
+using DinkToPdf.Contracts;
 namespace SistemaVentas_Aplicacion.Controllers
 {
     public class VentaController : Controller
@@ -15,13 +16,14 @@ namespace SistemaVentas_Aplicacion.Controllers
         private readonly ITipoDocumentoVentaService _tiposervice;
         private readonly IVentaService _ventareservice;
         private readonly IMapper _mapper;
+        private readonly IConverter _converter;
 
-
-        public VentaController(ITipoDocumentoVentaService tiposervice, IMapper mapper, IVentaService ventareservice)
+        public VentaController(ITipoDocumentoVentaService tiposervice, IMapper mapper, IVentaService ventareservice, IConverter converter)
         {
             _tiposervice = tiposervice;
             _mapper = mapper;
             _ventareservice = ventareservice;
+            _converter = converter;
         }
         public IActionResult NuevaVenta()
         {
@@ -99,6 +101,35 @@ namespace SistemaVentas_Aplicacion.Controllers
                 return StatusCode(StatusCodes.Status200OK, new { data = historialvNeta });
 
             }catch(Exception ex)
+            {
+                throw;
+            }
+        }
+
+        public ActionResult MostrarPDFVenta(string numeroVenta) {
+
+            try
+            {
+                var urlPlantilla = $"{this.Request.Scheme}://{this.Request.Host}/Plantilla/PDFVenta?numeroVenta={numeroVenta}";
+
+                var pdf = new HtmlToPdfDocument()
+                {
+                    GlobalSettings = {
+                        PaperSize = PaperKind.A4,
+                        Orientation = Orientation.Portrait
+                    },
+                    Objects = {
+                        new ObjectSettings() {
+                            Page = urlPlantilla
+                        }
+                    }
+                };
+
+                var archivoPDF = _converter.Convert(pdf);
+
+                return File(archivoPDF, "application/pdf");
+            }
+            catch(Exception ex)
             {
                 throw;
             }

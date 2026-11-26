@@ -324,6 +324,7 @@ namespace SistemaVenta.BLL.Implementacion
                 if (htmlCorreo != "")
                 {
                     await _correoService.EnviarCorreo(correo, "Contrasela reestablecida", htmlCorreo);
+                    correo_enviado = true;
                     
                 }
 

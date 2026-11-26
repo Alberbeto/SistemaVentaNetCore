@@ -1,14 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using AutoMapper;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using SistemaVentas_Aplicacion.Models.VModels;
-using SistemaVentas_Aplicacion.Utilidades.Response;
 using SistemaVenta.BLL.Interfaces;
 using SistemaVenta.Entity;
+using SistemaVentas_Aplicacion.Models.VModels;
+using SistemaVentas_Aplicacion.Utilidades.Response;
 using System.Xml.Schema;
 
 namespace SistemaVentas_Aplicacion.Controllers
 {
+    [Authorize]
     public class UsuarioController : Controller
     {
         private readonly IMapper _mapper;

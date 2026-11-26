@@ -1,16 +1,18 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using DinkToPdf;
+using DinkToPdf.Contracts;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
+using Newtonsoft.Json;
 using SistemaVenta.BLL.Interfaces;
 using SistemaVenta.DAL.Interfaces;
 using SistemaVenta.Entity;
-using AutoMapper;
-using SistemaVentas_Aplicacion.Utilidades.Response;
 using SistemaVentas_Aplicacion.Models.VModels;
-using Newtonsoft.Json;
-using DinkToPdf;
-using DinkToPdf.Contracts;
+using SistemaVentas_Aplicacion.Utilidades.Response;
 namespace SistemaVentas_Aplicacion.Controllers
 {
+    [Authorize]
     public class VentaController : Controller
     {
         private readonly ITipoDocumentoVentaService _tiposervice;

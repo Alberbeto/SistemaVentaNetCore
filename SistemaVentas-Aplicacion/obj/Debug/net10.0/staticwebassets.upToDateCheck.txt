@@ -471,6 +471,7 @@ C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\ww
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\microphone-alt.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\chart-bar.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\sort-up.svg
+C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\js\vistas\Home_Perfil.js
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\brands\codiepie.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\solid\mosque.svg
 C:\Users\alberto.medina\source\repos\SistemaDeVentas\SistemaVentas-Aplicacion\wwwroot\vendor\fontawesome-free\svgs\regular\plus-square.svg
@@ -1729,6 +1730,7 @@ wwwroot\js\sb-admin-2.min.js
 wwwroot\js\vistas\Categoria_Index.js
 wwwroot\js\vistas\Dashboard_Index.js
 wwwroot\js\vistas\HistorialVenta.js
+wwwroot\js\vistas\Home_Perfil.js
 wwwroot\js\vistas\Negocio_Index.js
 wwwroot\js\vistas\NuevaVenta_Index.js
 wwwroot\js\vistas\Producto_Index.js

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SistemaVenta.BLL.Interfaces;
 using SistemaVenta.DAL.Interfaces;
@@ -7,8 +8,8 @@ using SistemaVentas_Aplicacion.Models.VModels;
 namespace SistemaVentas_Aplicacion.Controllers
 {
 
-   
 
+    [Authorize]
     public class ReporteController : Controller
     {
         private readonly IMapper _mapper;

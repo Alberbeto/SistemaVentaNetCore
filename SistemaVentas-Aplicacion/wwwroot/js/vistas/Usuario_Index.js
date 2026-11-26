@@ -40,7 +40,7 @@ $(document).ready(function () {
 function ListarUsuarios() {
 
     $.ajax({
-        url: 'Usuario/Lista',
+        url: '/Usuario/Lista',
         type: 'get',
         dataType: 'json',
         success: function (response) {
@@ -100,13 +100,13 @@ function MostrarModal(model = Modelo_base) {
 $("#btnNuevo").on('click', function () {
 
     $.ajax({
-        url: 'Usuario/ListarRoles',
+        url: '/Usuario/ListarRoles',
         type: 'get',
         dataType: 'json',
         success: function (response) {
 
             var roles = response.data;
-            
+            console.log(roles);
             $("#cboRol").empty();
 
             roles.forEach(function (item) {
@@ -124,7 +124,7 @@ function editarUsuario(idusuario) {
 
     
     $.ajax({
-        url: 'Usuario/ObtenerPorId',
+        url: '/Usuario/ObtenerPorId',
         type: 'post',
         dataType: 'json',
         data: { idUsuario: idusuario },
@@ -142,7 +142,7 @@ function editarUsuario(idusuario) {
 
 
             $.ajax({
-                url: 'Usuario/ListarRoles',
+                url: '/Usuario/ListarRoles',
                 type: 'get',
                 dataType: 'json',
                 success: function (response) {
@@ -239,7 +239,7 @@ $("#btnGuardar").on('click', function () {
     if (modelo.idUsuario == 0) {
 
         $.ajax({
-            url: 'Usuario/Crear',
+            url: '/Usuario/Crear',
             type: 'post',
             dataType: 'json',
             data: formData,
@@ -269,7 +269,7 @@ $("#btnGuardar").on('click', function () {
         })
     } else {
         $.ajax({
-            url: 'Usuario/Editar',
+            url: '/Usuario/Editar',
             type: 'put',
             dataType: 'json',
             data: formData,
@@ -316,7 +316,7 @@ function eliminarUsuario(idUsuario) {
 
         if (result.isConfirmed) {
             $.ajax({
-                url: 'Usuario/Eliminar',
+                url: '/Usuario/Eliminar',
                 type: 'delete',
                 data: { idUsuario: idUsuario },
                 dataType: 'json',

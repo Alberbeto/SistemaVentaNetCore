@@ -1,16 +1,17 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using SistemaVenta.BLL.Interfaces;
-using SistemaVentas_Aplicacion.Utilidades.Response;
-using SistemaVentas_Aplicacion.Models.VModels;
 using Newtonsoft.Json;
-using System.Runtime.CompilerServices;
-using SistemaVenta.Entity;
+using SistemaVenta.BLL.Interfaces;
 using SistemaVenta.DAL.Interfaces;
+using SistemaVenta.Entity;
+using SistemaVentas_Aplicacion.Models.VModels;
+using SistemaVentas_Aplicacion.Utilidades.Response;
+using System.Runtime.CompilerServices;
 
 namespace SistemaVentas_Aplicacion.Controllers
 {
-
+    [Authorize]
 
     public class NegocioController : Controller
     {

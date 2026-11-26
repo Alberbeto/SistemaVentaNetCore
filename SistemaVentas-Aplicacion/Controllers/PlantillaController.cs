@@ -1,11 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client.NativeInterop;
-using AutoMapper;
-using SistemaVentas_Aplicacion.Models.VModels;
 using SistemaVenta.BLL.Interfaces;
+using SistemaVentas_Aplicacion.Models.VModels;
 
 namespace SistemaVentas_Aplicacion.Controllers
 {
+    
     public class PlantillaController : Controller
     {
         private readonly IMapper _mapper;

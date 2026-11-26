@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Storage;
 using SistemaVenta.DAL.Implementacion;
 using SistemaVenta.DAL.Interfaces;
@@ -7,6 +8,7 @@ using SistemaVentas_Aplicacion.Utilidades.Response;
 
 namespace SistemaVentas_Aplicacion.Controllers
 {
+    [Authorize]
     public class DashboardController : Controller
     {
         private readonly IDashboardServices _dashboardservice;

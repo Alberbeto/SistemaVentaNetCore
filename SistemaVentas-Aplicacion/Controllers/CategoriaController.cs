@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using SistemaVenta.BLL.Interfaces;
@@ -8,6 +9,7 @@ using SistemaVentas_Aplicacion.Utilidades.Response;
 
 namespace SistemaVentas_Aplicacion.Controllers
 {
+    [Authorize]
     public class CategoriaController : Controller
     {
         private readonly ICategoriaService _categoriaService;
